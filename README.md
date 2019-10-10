@@ -6,22 +6,21 @@ Runtime：[This docker image](https://hub.docker.com/r/waleedka/modern-deep-lear
 I want to divide a crane into different parts. 
 
 The parts' division:
-![](repo_picture/firstWay.png)
+![](repo_pictures/firstWay.png)
 Class Names = ['connection', 'claw']
 
 In my case, 'claw' class has 2 instances, 'connection' has 1.
 ## Step by step label my crane dataset via VIA
 Firstly, import pictures, then click the "+" button in below picture's circle 1. Then add "class" section.
-
+![](repo_pictures/step1.png)
 Secondly, use polygon labeling tool to label the crawl:
-
+![](repo_pictures/step2.png)
 Then next claw instance:
-
+![](repo_pictures/step3.png)
 Finally, connection instance:
-
+![](repo_pictures/step4.png)
 Save annotation as json format(Don't need to rename!), and copy it to <repo_root_path>/data/balloon/train or val
-
-
+![](repo_pictures/step5.png)
 ## Training
 Go into docker container:
 ```c
