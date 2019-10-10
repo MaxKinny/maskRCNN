@@ -31,6 +31,8 @@ Finally, connection instance:
 ![](repo_pictures/step5.jpg)
 
 Save annotation as json format(Don't need to rename!), and copy it to <repo_root_path>/data/balloon/train or val
+## Fix your codes
+71, 91, 92, 130, 175-178, 278 lines of code in samples/balloon/balloon.py should be changed according to your dataset.
 ## Training
 Go into docker container:
 ```c
