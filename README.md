@@ -16,22 +16,21 @@ In my case, 'claw' class has 2 instances, 'connection' has 1.
 Firstly, import pictures, then click the "+" button in below picture's circle 1. Then add "class" section.
 
 ![](repo_pictures/step1.jpg)
+![](repo_pictures/step2.jpg)
 
 Secondly, use polygon labeling tool to label the crawl:
 
-![](repo_pictures/step2.jpg)
+![](repo_pictures/step3.jpg)
 
 Then next claw instance:
 
-![](repo_pictures/step3.jpg)
+![](repo_pictures/step4.jpg)
 
 Finally, connection instance:
 
-![](repo_pictures/step4.jpg)
+![](repo_pictures/step5.jpg)
 
 Save annotation as json format(Don't need to rename!), and copy it to <repo_root_path>/data/balloon/train or val
-
-![](repo_pictures/step5.jpg)
 ## Training
 Go into docker container:
 ```c
