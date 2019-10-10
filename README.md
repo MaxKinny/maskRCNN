@@ -39,7 +39,7 @@ Save annotation as json format(Don't need to rename!), and copy it to <repo_root
 Go into docker container:
 ```c
 cd <repo_root_path>
-docker run -it -v $(pwd):/maskRCNN -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY waleedka/modern-deep-learning bash
+docker run --gpus all -it -v $(pwd):/maskRCNN -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY waleedka/modern-deep-learning bash
 ```
 All commands below are run in docker container:
 ```c
