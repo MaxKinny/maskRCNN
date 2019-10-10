@@ -6,7 +6,7 @@ Runtime：[This docker image](https://hub.docker.com/r/waleedka/modern-deep-lear
 I want to divide a crane into different parts. 
 
 The parts' division:
-
+![](repo_picture/firstWay.png)
 Class Names = ['connection', 'claw']
 
 In my case, 'claw' class has 2 instances, 'connection' has 1.
