@@ -15,23 +15,23 @@ In my case, 'claw' class has 2 instances, 'connection' has 1.
 ## Step by step label my crane dataset via VIA
 Firstly, import pictures, then click the "+" button in below picture's circle 1. Then add "class" section.
 
-![](repo_pictures/step1.png)
+![](repo_pictures/step1.jpg)
 
 Secondly, use polygon labeling tool to label the crawl:
 
-![](repo_pictures/step2.png)
+![](repo_pictures/step2.jpg)
 
 Then next claw instance:
 
-![](repo_pictures/step3.png)
+![](repo_pictures/step3.jpg)
 
 Finally, connection instance:
 
-![](repo_pictures/step4.png)
+![](repo_pictures/step4.jpg)
 
 Save annotation as json format(Don't need to rename!), and copy it to <repo_root_path>/data/balloon/train or val
 
-![](repo_pictures/step5.png)
+![](repo_pictures/step5.jpg)
 ## Training
 Go into docker container:
 ```c
